@@ -1,6 +1,6 @@
 <template>
-  <header class="flex around middle">
-    <div class="container flex between middle">
+  <header>
+    <div class="w-60 flex between middle">
       <a href="/">
         <img alt="Vue logo" src="@/assets/img/dc-logo.png">
       </a>
@@ -19,13 +19,13 @@
 </template>
 
 <script>
-import * as Links from '@/assets/data/Links.js';
+import Links from '@/assets/data/Links.js';
 export default {
   name: 'Header',
 
   data() {
     return {
-      links: Links.headerLinks
+      links: Links.headerLinks,
     }
   }
 }

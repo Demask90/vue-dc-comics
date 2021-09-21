@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="w-80">
     <Header/>
     <Products/>
     <Footer/>
@@ -25,7 +25,6 @@ export default {
 <style lang="scss">
 @import "./style/generals";
 #app {
-  color: #2c3e50;
   width: 100%;
 }
 </style>

@@ -1,58 +1,166 @@
-    const headerLinks = [
-        {
-            text: "CHARACTERS",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "COMICS",
-            url: "#",
-            current: true,
-        },
-        {
-            text: "MOVIES",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "TV",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "GAMES",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "COLLECTIBLES",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "VIDEOS",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "FANS",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "NEWS",
-            url: "#",
-            current: false,
-        },
-        {
-            text: "SHOP",
-            url: "#",
-            current: false,
-        },
-    ]
+const headerLinks = [
+    {
+        text: 'Characters',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'Comics',
+        url: '#',
+        current: true
+    },
+    {
+        text: 'Movies',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'Tv',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'Games',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'Collectibles',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'Videos',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'Fans',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'News',
+        url: '#',
+        current: false
+    },
+    {
+        text: 'Shop',
+        url: '#',
+        current: false
+    },
+];
 
-    const footerLinks = [
-       
-    ]
-    
-export { headerLinks, footerLinks}
+const footDCComics = [
+    {
+        text: 'Characters',
+        url: '#',
+    },
+    {
+        text: 'Comics',
+        url: '#',
+    },
+    {
+        text: 'Movies',
+        url: '#',
+    },
+    {
+        text: 'TV',
+        url: '#',
+    },
+    {
+        text: 'Games',
+        url: '#',
+    },
+    {
+        text: 'Videos',
+        url: '#',
+    },
+    {
+        text: 'News',
+        url: '#',
+    },
+]
+
+const footShop = [
+    {
+        text: 'Shop DC',
+        url: '#',
+    },
+    {
+        text: 'Shop DC Collectibles',
+        url: '#',
+    },
+]
+
+const footDC = [
+    {
+        text: 'Term Of Use',
+        url: '#',
+    },
+    {
+        text: 'Privacy Policy (New)',
+        url: '#',
+    },
+    {
+        text: 'Ad Choices',
+        url: '#',
+    },
+    {
+        text: 'Advertising',
+        url: '#',
+    },
+    {
+        text: 'Jobs',
+        url: '#',
+    },
+    {
+        text: 'Subscriptions',
+        url: '#',
+    },
+    {
+        text: 'Talent Workshops',
+        url: '#',
+    },
+    {
+        text: 'CPSC Certificates',
+        url: '#',
+    },
+    {
+        text: 'Ratings',
+        url: '#',
+    },
+    {
+        text: 'Show Help',
+        url: '#',
+    },
+    {
+        text: 'Contact Us',
+        url: '#',
+    },
+]
+
+const footSites = [
+    {
+        text: 'DC',
+        url: '#',
+    },
+    {
+        text: 'MAD Magazine',
+        url: '#',
+    },
+    {
+        text: 'DC Kids',
+        url: '#',
+    },
+    {
+        text: 'DC Universe',
+        url: '#',
+    },
+    {
+        text: 'DC Power Visa',
+        url: '#',
+    },
+]
+
+export default {headerLinks , footDCComics, footShop, footDC, footSites};
